@@ -21,9 +21,9 @@ int main(){
     printf("1. Sumar numeros \n 2. Restar numeros.\n");
     scanf("%d", &opc);
     if(opc == 1)
-      Sumar(num1, num2);
+      printf("la suma total es: %d \n",suma(num1, num2));
     else
-      Restar(num1, num2);    
+       printf("la resta total es: %d \n", resta(num1, num2));    
 
     return 0;
 }
